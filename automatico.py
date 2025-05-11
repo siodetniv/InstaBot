@@ -126,11 +126,4 @@ class InstaBotApp(tk.Tk):
 if __name__ == '__main__':
     app = InstaBotApp()
     app.mainloop()
-
-# ======================= COMPILAR COM PYINSTALLER ============================
-# Para compilar o .exe:
-# 1. Instale o PyInstaller:
-#    pip install pyinstaller
-# 2. Compile o script:
-#    pyinstaller --onefile --windowed --icon=icon.ico bot_instagram_exe.py
-# 3. O .exe estará na pasta 'dist'.
+    
